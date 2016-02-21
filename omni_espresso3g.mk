@@ -25,16 +25,11 @@ TARGET_BOOTANIMATION_SIZE := 480x320
 $(call inherit-product, vendor/omni/config/common_tablet.mk)
 
 # OmniRom specific overlay
-DEVICE_PACKAGE_OVERLAYS += device/samsung/p5100/overlay/custom
-DEVICE_PACKAGE_OVERLAYS += device/samsung/espresso-common/overlay/custom-common
+DEVICE_PACKAGE_OVERLAYS += device/samsung/espresso3g/overlay/custom
+DEVICE_PACKAGE_OVERLAYS += device/samsung/espresso/overlay/custom-common
 
 # Inherit device specific configuration
-$(call inherit-product, device/samsung/p5100/aosp_p5100.mk)
+$(call inherit-product, device/samsung/espresso3g/aosp_espresso3g.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_p5100
-
-# Set build fingerprint / ID / Product Name etc.
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="espresso10rfxx-user 4.2.2 JDQ39 P5100XXDNA1 release-keys" \
-    BUILD_FINGERPRINT="samsung/espresso10rfxx/espresso10rf:4.2.2/JDQ39/P5100XXDNA1:user/release-keys"
+PRODUCT_NAME := omni_espresso3g

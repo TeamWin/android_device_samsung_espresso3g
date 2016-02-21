@@ -16,5 +16,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_p5100.mk \
-    $(LOCAL_DIR)/omni_p5100.mk
+    $(LOCAL_DIR)/aosp_espresso3g.mk \
+    $(LOCAL_DIR)/omni_espresso3g.mk
