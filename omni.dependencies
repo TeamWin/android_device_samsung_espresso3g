@@ -1,8 +1,8 @@
 [
   {
     "remote": "omnirom",
-    "repository": "android_device_samsung_espresso",
-    "target_path": "device/samsung/espresso",
+    "repository": "android_device_samsung_espressowifi",
+    "target_path": "device/samsung/espressowifi",
     "revision": "android-5.1"
   },
   {

@@ -26,7 +26,7 @@ $(call inherit-product, vendor/omni/config/common_tablet.mk)
 
 # OmniRom specific overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/espresso3g/overlay/custom
-DEVICE_PACKAGE_OVERLAYS += device/samsung/espresso/overlay/custom-common
+DEVICE_PACKAGE_OVERLAYS += device/samsung/espressowifi/overlay/custom-common
 
 # Inherit device specific configuration
 $(call inherit-product, device/samsung/espresso3g/aosp_espresso3g.mk)
